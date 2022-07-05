@@ -41,7 +41,7 @@ CORS_ORIGIN_WHITELIST = [
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
+     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -53,6 +53,13 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'home',
     'products',
+    'bag',
+    #'checkout',
+    #'profiles',
+
+    # Other
+    #'crispy_forms',
+    #'storages',
 ]
 
 MIDDLEWARE = [
